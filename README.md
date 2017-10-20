@@ -9,3 +9,5 @@ Goals: Provide a simple solution for testing SRAM parts, mainly those used by vi
        Adapt the code to work on cheaper FPGA boards, to make the devics accessible.
 
 Tristan Woodrich
+
+10/20/2017 I will be changing the project to operate with a DE10-Standard board from Terasic. This board lacks on-board SRAM, so the SRAM controller will only be used to interface with an SRAM chip connected to the standard Terasic 40pin GPIO header.
